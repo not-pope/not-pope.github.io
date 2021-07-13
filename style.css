@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Sans-Serif;
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#output {
+    cursor: default;
+}
+
+.arrow {
+    font-size: 2.0em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.warning{
+    background-color: orange;
+    padding: 0.4em 0.75em;
+    margin-top: 10px;
+}

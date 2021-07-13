@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>jubilant-brocolli</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+        <noscript><p><span class="warning"><em>you must enable some js for this 'app' to work</em></span></p></noscript>
+        <h1>jubilant-borcolli</h1>
+        <h2>your friendly rot13 :)</h2>
+        <p><textarea id="input" cols="82" rows="10" onkeyup="update()" onchange="update()" autofocus></textarea></p>
+        <p class="arrow">↓</p>
+        <p>
+            <select id="rot-value" onchange="update()">
+                <option value="1">rot1</option>
+                <option value="2">rot2</option>
+                <option value="3">rot3</option>
+                <option value="4">rot4</option>
+                <option value="5">rot5</option>
+                <option value="6">rot6</option>
+                <option value="7">rot7</option>
+                <option value="8">rot8</option>
+                <option value="9">rot9</option>
+                <option value="10">rot10</option>
+                <option value="11">rot11</option>
+                <option value="12">rot12</option>
+                <option value="13" selected>rot13</option>
+                <option value="14">rot14</option>
+                <option value="15">rot15</option>
+                <option value="16">rot16</option>
+                <option value="17">rot17</option>
+                <option value="18">rot18</option>
+                <option value="19">rot19</option>
+                <option value="20">rot20</option>
+                <option value="21">rot21</option>
+                <option value="22">rot22</option>
+                <option value="23">rot23</option>
+                <option value="24">rot24</option>
+                <option value="25">rot25</option>
+            </select>
+        </p>
+        <p class="arrow">↓</p>
+        <p><textarea id="output" cols="82" rows="10" readonly></textarea></p>
+        <a href="https://en.wikipedia.org/wiki/ROT13">about rot13</a>
+</html>
+
