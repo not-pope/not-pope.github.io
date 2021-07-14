@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>cautious-waffle</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <noscript><p><span class="warning"><em>you must enable some js for this 'app' to work</em></span></p></noscript>
+        <h1>cautious-waffle</h1>
+        <h2>your friendly d20 :)</h2>
+        <p>
+            <select id="d-value">
+                <option value="2">coin</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20" selected>20</option>
+            </select>
+        </p>
+        <p>
+            <button type="button" onclick="update()">roll</button>
+        </p>
+        <p id="result">
+            roll me
+        </p>
+    </body>
+</html>

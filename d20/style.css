@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Sans-Serif;
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.warning{
+    background-color: orange;
+    padding: 0.4em 0.75em;
+    margin-top: 10px;
+}
+
+.promena{
+    animation-name: flash;
+    animation-duration: 1s;
+}
+
+@keyframes flash{
+    from { color: white;}
+    to { color: black;}
+}
+
+
+select {
+    margin-top: 50px;
+    width:4em;
+    height:2em;
+    text-align-last:center;
+    appearance: none;
+    background-color: white;
+}
+
+button {
+    margin-top:30px;
+    width:5em;
+    height:3em;
+}
+
+#result{
+    margin-top: 110px;
+    font-size: 3em;
+}
+
